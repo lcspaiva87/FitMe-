@@ -36,8 +36,7 @@
     <div class="results-container">
       <ul>
         <li *ngFor="let result of searchResults">
-
-      <a [routerLink]="['/Compra']">
+          <a [routerLink]="['/Compra']" [queryParams]="{ sessao: result.sessao, produtos: result.id }">
            <img width="50px" [src]="result.previewImageSrc" [alt]="result.alt" />
             <p>{{ result.title }}</p>
             <p>{{ result.price }}</p>

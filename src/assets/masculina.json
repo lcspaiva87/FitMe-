@@ -5,6 +5,7 @@
             "alt": "Moletom Ziper",
             "title": "Moletom Ziper",
              "price":"80,90",
+             "sessao":"masculina",
              "id": 11
         },
         {
@@ -12,6 +13,7 @@
             "alt": "Calça com Ziper",
             "title": "Calça com Ziper",
              "price":"90,00",
+             "sessao":"masculina",
              "id": 12
         },
         {
@@ -19,6 +21,7 @@
             "alt": "Calça Moletom",
             "title": "Calça Moletom",
              "price":"75,00",
+             "sessao":"masculina",
              "id": 13
         },
         {
@@ -26,6 +29,7 @@
             "alt": "Camiseta Polo",
             "title": "Camiseta Polo",
              "price":"35,90",
+             "sessao":"masculina",
              "id": 14
         },
         {
@@ -33,6 +37,7 @@
             "alt": "Moletom Adidas",
             "title": "Moletom Adidas",
              "price":"25,99",
+             "sessao":"masculina",
              "id": 15
         },
         {
@@ -40,6 +45,7 @@
             "alt": "Blusa com manga adaptável",
             "title": "Blusa com manga adaptável",
              "price":"20,00",
+             "sessao":"masculina",
              "id": 16
         },
         {
@@ -47,6 +53,7 @@
             "alt": "Camisa manga curta folhagem",
             "title": "Camisa manga curta folhagem",
              "price":"60,00",
+             "sessao":"masculina",
              "id": 17
         },
         {
@@ -54,6 +61,7 @@
             "alt": "Suéter Ralph Gola Vettore",
             "title": "Suéter Ralph Gola Vettore",
              "price":"30,00",
+             "sessao":"masculina",
              "id": 18
         },
         {
@@ -61,6 +69,7 @@
             "alt": "Calça Sarja ",
             "title": "Calça Sarja ",
              "price":"40,00",
+             "sessao":"masculina",
              "id": 19
 
         },
@@ -69,6 +78,7 @@
             "alt": "Calça skinny sarja",
             "title": "Calça skinny sarja",
              "price":"80,00",
+             "sessao":"masculina",
              "id": 20
         }
     ]

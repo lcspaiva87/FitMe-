@@ -37,86 +37,8 @@
       "email": "alimoland67@gmail.com",
       "password": "123456",
       "id": 4
-    },
-    {
-      "name": "",
-      "lastname": "",
-      "datanascimento": "",
-      "genero": "",
-      "cpf": "",
-      "email": "",
-      "password": "",
-      "id": 5
-    },
-    {
-      "name": "",
-      "lastname": "",
-      "datanascimento": "",
-      "genero": "",
-      "cpf": "",
-      "email": "",
-      "password": "",
-      "id": 6
     }
+
   ],
-  "cart": [
-    {
-      "previewImageSrc": "assets/pp.jpeg",
-      "alt": " Vestido Branco com Pedrinhas ",
-      "title": " Vestido Branco com Pedrinhas",
-      "price": "50,00",
-      "id": 1
-    },
-    {
-      "previewImageSrc": "assets/mas3.jpeg",
-      "alt": "Moletom Ziper",
-      "title": "Moletom Ziper",
-      "price": "80,90",
-      "id": 11
-    },
-    {
-      "previewImageSrc": "assets/f3.jpeg",
-      "alt": "Conjunto Blusa e Short",
-      "title": "Conjunto de Camiseta Social com Calça",
-      "price": "40,00",
-      "id": 9
-    },
-    {
-      "previewImageSrc": "assets/f2.jpeg",
-      "alt": "Blusa Feminina com Velcro ",
-      "title": "Blusa Feminina com Velcro ",
-      "price": "50,00",
-      "id": 2
-    },
-    {
-      "itemImageSrc": "assets/imagem3.jpg",
-      "previewImageSrc": "assets/f7.jpeg",
-      "thumbnailImageSrc": "assets/imagem3.jpg",
-      "alt": "Description for Image 3",
-      "title": "Macaquinho Verde com Cinto",
-      "price": "80,90",
-      "id": 12
-    },
-    {
-      "previewImageSrc": "assets/899.png",
-      "alt": "Calça jeans Cintura Alta",
-      "title": "Calça Wide Leg Alta",
-      "price": "30,00",
-      "id": 8
-    },
-    {
-      "previewImageSrc": "assets/f5M.jpg",
-      "alt": "Moletom Adidas",
-      "title": "Moletom Adidas",
-      "price": "25,99",
-      "id": 15
-    },
-    {
-      "previewImageSrc": "assets/5.JPG",
-      "alt": "Moletom Esportivo",
-      "title": "Cropped Preto com Zíper",
-      "price": "80,00",
-      "id": 10
-    }
-  ]
+  "cart": []
 }

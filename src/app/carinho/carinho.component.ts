@@ -1,7 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
-import { galeriaImages } from '../data-type';
 import { ComprarService } from '../compra/comprar.service';
+import { galeriaImages } from '../data-type';
 
 @Component({
   selector: 'app-carinho',
@@ -18,7 +18,6 @@ export class CarinhoComponent implements OnInit {
 
   ngOnInit() {
 
-    
     this.compra.GetAllCart().subscribe((resp) => {
       this.showMesage = false;
       this.count = resp.length;
@@ -39,21 +38,46 @@ export class CarinhoComponent implements OnInit {
 
   removerDoCarrinho(produto: any) {
 
+    // Remover o produto da lista de imagens
     this.images = this.images.filter(item => item.id !== produto.id);
-    console.log (this.images)
+
+    // Atualizar localStorage
     let dados = localStorage.getItem('cart');
     if (dados) {
-      let carrinho = [];
-      carrinho = JSON.parse(dados);
-      carrinho = this.images;
-      if (this.images.length > 0) {
-       console.log(carrinho)
-        localStorage.setItem('cart', `${JSON.stringify(carrinho)}`);
+      let carrinho = JSON.parse(dados);
+      carrinho = carrinho.filter((item: any) => item.id !== produto.id);
+
+      if (carrinho.length > 0) {
+        localStorage.setItem('cart', JSON.stringify(carrinho));
       } else {
         localStorage.removeItem('cart');
       }
+    } else {
+      localStorage.removeItem('cart');
     }
+
+    // Atualizar outras variáveis ou estados conforme necessário
+    this.count = this.images.length;
     this.count = this.images.length;
     this.calcularTotal();
+
+    // Delete item from API
+    fetch(`http://localhost:3000/cart/${produto.id}`, {
+      method: 'DELETE',
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log('Success:', data);
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+    this.calcularTotal();
+
   }
-}  
+}

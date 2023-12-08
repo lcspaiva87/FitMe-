@@ -5,6 +5,7 @@
             "alt": " Vestido Branco com Pedrinhas ",
             "title": " Vestido Branco com Pedrinhas",
              "price":"50,00",
+             "sessao":"feminina",
              "id": 1
         },
         {
@@ -12,6 +13,7 @@
             "alt": "Blusa Feminina com Velcro ",
             "title": "Blusa Feminina com Velcro ",
              "price":"50,00",
+             "sessao":"feminina",
              "id": 2
         },
         {
@@ -19,6 +21,7 @@
             "alt": "Conjunto de Camiseta Social com Calça",
             "title": "Conjunto de Camiseta Social",
              "price":"50,00",
+             "sessao":"feminina",
              "id": 3
         },
         {
@@ -26,6 +29,7 @@
             "alt": "Camiseta de Botão com Preto",
             "title": "Blazer Cinza",
              "price":"35,90",
+             "sessao":"feminina",
              "id": 4
         },
         {
@@ -33,6 +37,7 @@
             "alt": "Calça Moletom Jogger Plus Size Flanelada",
             "title": "Macaquinho Verde com Cinto",
              "price":"25,99",
+             "sessao":"feminina",
              "id": 5
         },
         {
@@ -40,6 +45,7 @@
             "alt": " Vestido Florido ",
             "title": "Calça Jeans com Ajuste ",
              "price":"20,00",
+             "sessao":"feminina",
              "id": 6
         },
         {
@@ -47,6 +53,7 @@
             "alt": "Macaquinho",
             "title": "Calça Social e Blusa",
              "price":"60,00",
+             "sessao":"feminina",
              "id": 7
         },
         {
@@ -54,6 +61,7 @@
             "alt": "Calça jeans Cintura Alta",
             "title": "Calça Wide Leg Alta",
              "price":"30,00",
+             "sessao":"feminina",
              "id": 8
         },
         {
@@ -61,6 +69,7 @@
             "alt": "Conjunto Blusa e Short",
             "title": "Conjunto de Camiseta Social",
              "price":"40,00",
+             "sessao":"feminina",
              "id": 9
 
         },
@@ -69,6 +78,7 @@
             "alt": "Moletom Esportivo",
             "title": "Cropped Preto com Zíper",
              "price":"80,00",
+             "sessao":"feminina",
              "id": 10
         }
     ]
